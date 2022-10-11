@@ -2,7 +2,6 @@ package com.example.demo.model;
 
 import com.example.demo.Service.SalaryService;
 
-import java.util.Objects;
 
 public class SalaryDTO implements SalaryService {
     private int salary;
