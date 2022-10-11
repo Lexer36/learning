@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    @GetMapping("calc")
+    @GetMapping("calculate")
     public int calc(@RequestParam int salary, @RequestParam int daysOff){
         SalaryDTO salaryDTO = new SalaryDTO(salary, daysOff);
         return salaryDTO.calculation();
